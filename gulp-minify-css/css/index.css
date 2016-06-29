@@ -1,0 +1,57 @@
+canvas{
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #eeeeee;
+}
+
+.controll-bar{
+    height: 50px;
+    margin: 10px auto;
+}
+
+.clear-btn{
+    border: 1px solid #eeeeee;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Microsoft-Yahei";
+    padding: 10px 20px;
+    float: right;
+    cursor: pointer;
+}
+
+.clear-btn:hover{
+    background-color: #eeeeee;
+}
+
+.color-btn{
+    width: 50px;
+    height: 40px;
+    border: 1px solid #eeeeee;
+    float: left;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.color-btn:hover{
+    border: 2px solid black;
+}
+
+.selected{
+    border: 2px solid black;
+}
+
+.red{
+    background-color: red;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.green{
+    background-color: green;
+}
